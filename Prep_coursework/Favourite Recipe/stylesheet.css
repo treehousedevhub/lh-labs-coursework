@@ -1,0 +1,103 @@
+
+/* <<<BASE>>>  - defaults*/
+/* Default Font Sizes */
+h1 { font-size: 2.2em; } 
+h2 { font-size: 2.0em; } 
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; } 
+h5 { font-size: 1.4em; } 
+p { font-size: 1.2em; }
+
+
+/* Default Form Layout */
+input.text { 
+ padding: 3px; 
+ border: 1px solid #999999;     
+}
+
+
+/* Default Table Reset */
+table {  
+ border-spacing: 0; 
+ border-collapse: collapse; 
+} 
+
+td{ 
+ text-align: left; 
+ font-weight: normal; 
+}
+
+/* Reset Default Padding & Margin */
+* { 
+ margin: 0; 
+ padding: 0; 
+ border: 0; 
+}
+
+section { 
+    display: block;
+}
+
+/* <<<LAYOUT>>> - #IDs DIVs, Element specificity */
+#site_container {  
+ height: auto;
+ margin-left: auto;  
+ margin-right: auto;  
+ /*text-align: left; */  
+ width: 800px;  
+ margin-top: 11px;
+ margin-bottom: 21px;
+ /*border: 3px solid red;*/
+}
+
+
+#header {
+	height: 150px;
+	background-color: #ccc;
+	}
+
+#menu {
+	height: 60px;
+	background-color: #666;
+	 }
+
+#sidebar {
+	height: 400px;
+	width: 150px;
+	background-color: #0c0;
+	float: left;
+}
+
+#main {
+	height: 400px;
+	width: 650px;
+	background-color: #03c;
+	float: right
+	}
+
+#footer{
+	height: 100px;
+	background-color: #ccc;
+	clear: both;
+}
+
+
+/* <<<MODULE>>> - reuseable components, NO IDs, just .classes only*/
+
+
+
+
+#ID {
+font-fmaily: impact;
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	border: 3px solid red;
+}
+/* <<<STATE>>> - rules override all other styles*/
+/* <<<THEME>>>  - choosing different appearances or skins */
+
+
+
