@@ -100,6 +100,9 @@ h1 p{
     color: Red;
 }
 
+#unhide-all-img{
+	display: none;
+}
 
 
 
@@ -151,6 +154,16 @@ font-fmaily: impact;
 	background-color: red;
 	border: 3px solid red;
 }
+
+.highlight-paragraph{
+	border: 4px solid #FF0000;
+}
+
+.highlight-listitems{
+	border: solid 1px #006600;
+	background: #ffff00;
+}
+
 /* <<<STATE>>> - rules override all other styles*/
 /* <<<THEME>>>  - choosing different appearances or skins */
 
